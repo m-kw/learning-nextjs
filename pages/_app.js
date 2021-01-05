@@ -1,5 +1,5 @@
 import '../styles/global.css';
 
-export default function App({ Component, prageProps }) {
-  return <Component {...prageProps} />;
+export default function App({ Component, pageProps }) {
+  return <Component {...pageProps} />;
 }
